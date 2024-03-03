@@ -17,7 +17,7 @@ function App() {
 
     const [searchTerm,setSearchTerm]=useState('');
 
-    const api_url="http://www.omdbapi.com?apikey=ea09b74"
+    const api_url="https://www.omdbapi.com?apikey=ea09b74"
 
 
     async function searchMovies(title){
